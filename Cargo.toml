@@ -1,0 +1,17 @@
+[workspace]
+members = ["crates/*"]
+
+[package]
+name = "config2"
+version = "0.20250710.0"
+edition = "2024"
+
+[dependencies]
+defer = "0.2.1"
+glob = "0.3.3"
+memoize = "0.5.1"
+regex-lite = "0.1.8"
+tempdir = "0.3.7"
+thiserror = "2.0.17"
+uname = "0.1.1"
+which = "8.0.0"
